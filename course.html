@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univercity Website  designg</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+    ">
+ </head>
+<body>
+    <!-- header section start -->
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/img/logo.png" alt=""></a>
+        <div class="nav-links " id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                 <li><a href="">HOME</a></li>
+                 <li><a href="">ABOUT</a></li>
+                 <li><a href="">COURSE</a></li>
+                 <li><a href="">BLOG</a></li>
+                 <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+
+       <h1>Our Courses</h1>
+  </section> 
+  <!-- header section end  -->
+ <!-- course section start -->
+ <section class="course">
+  <h1>Courses We Offer</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+  <div class="row">
+      <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, deleniti quo? Et pariatur atque quasi labore qui reiciendis aliquid ut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, eius?</p>
+      </div>
+      <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, deleniti quo? Et pariatur atque quasi labore qui reiciendis aliquid ut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, eius?</p>
+      </div>
+      <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, deleniti quo? Et pariatur atque quasi labore qui reiciendis aliquid ut? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, eius?</p>
+      </div>
+  </div>
+</section>
+ <!-- course section end -->
+
+<!-- facilities section start -->
+<section class="facelities">
+  <h1>Our facelities</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+  <div class="row">
+      <div class="facilities-col">
+          <img src="/img/library.png" alt="">
+          <h3>World Class library</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente quidem odit illo libero, earum officia voluptates corrupti ducimus reiciendis.</p>
+      </div>
+      <div class="facilities-col">
+          <img src="/img/basketball.png" alt="">
+          <h3>Largest Play Ground</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente quidem odit illo libero, earum officia voluptates corrupti ducimus reiciendis.</p>
+      </div>
+      <div class="facilities-col">
+          <img src="/img/cafeteria.png" alt="">
+          <h3>Tasty and Healthy Food</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente quidem odit illo libero, earum officia voluptates corrupti ducimus reiciendis.</p>
+      </div>
+  </div>
+</section>
+<!-- facilities section end -->
+
+<!-- Footer section start -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem debitis facilis <br> vel reiciendis voluptatibus vero rem ad, ullam minima.</p>
+
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p>Made With By Easy tutorial</p>
+  </section>
+ 
+<!-- Footer section end -->
+
+
+
+  <!-- Javascript  for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px"
+    }
+</script>
+
+
+</body>
+</html>
